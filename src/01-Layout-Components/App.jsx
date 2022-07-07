@@ -1,4 +1,6 @@
-import SplitApp from "./SplitScreen/SplitApp";
+// import SplitApp from "./SplitScreen/SplitApp";
+// import SplitApp from "./SplitScreen/SplitApp2";
+import SplitApp from "./SplitScreen/SplitApp3";
 
 const App = () => {
     return(
