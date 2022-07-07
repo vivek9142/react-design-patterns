@@ -1,9 +1,14 @@
+import SplitApp from "./SplitScreen/SplitApp";
 
 const App = () => {
     return(
-        <h1>
-            Home
+        <div>
+            <h1>
+            01 - Layout Components
         </h1>
+
+        <SplitApp />
+        </div>
     )
 }
 
