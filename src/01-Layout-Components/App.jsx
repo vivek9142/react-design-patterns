@@ -1,6 +1,8 @@
 // import SplitApp from "./SplitScreen/SplitApp";
 // import SplitApp from "./SplitScreen/SplitApp2";
-import SplitApp from "./SplitScreen/SplitApp3";
+// import SplitApp from "./SplitScreen/SplitApp3";
+
+import ListApp from "./List/ListApp";
 
 const App = () => {
     return(
@@ -9,7 +11,8 @@ const App = () => {
             01 - Layout Components
         </h1>
 
-        <SplitApp />
+        {/* <SplitApp /> */}
+        <ListApp/>
         </div>
     )
 }
