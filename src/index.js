@@ -3,8 +3,10 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 
 //01-Layout-Components
-import App from './01-Layout-Components/App';
+// import App from './01-Layout-Components/App';
 
+//02- Container Components
+import App from './02-Container-Components/App';
 
 import reportWebVitals from './reportWebVitals';
 
