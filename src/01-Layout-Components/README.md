@@ -1,4 +1,4 @@
-#Layout Components
+# Layout Components
 Layout components are components in React whose primary concern is helping us to arrange other components that we create on the page.  
 
 Some examples of this that you're probably familiar with, and that we're going to be taking a look at throughout the rest of this sections are 
