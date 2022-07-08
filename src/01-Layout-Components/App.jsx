@@ -2,7 +2,9 @@
 // import SplitApp from "./SplitScreen/SplitApp2";
 // import SplitApp from "./SplitScreen/SplitApp3";
 
-import ListApp from "./List/ListApp";
+// import ListApp from "./List/ListApp";
+
+import ModalApp from "./Modal/ModalApp";
 
 const App = () => {
     return(
@@ -12,7 +14,8 @@ const App = () => {
         </h1>
 
         {/* <SplitApp /> */}
-        <ListApp/>
+        {/* <ListApp/> */}
+        <ModalApp/>
         </div>
     )
 }

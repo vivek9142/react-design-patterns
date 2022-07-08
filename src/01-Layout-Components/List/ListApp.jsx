@@ -37,7 +37,7 @@ const people = [{
 	hobbies: ['biology', 'medicine', 'gymnastics'],
 }];
 
-const products = [{
+export const products = [{
 	name: 'Flat-Screen TV',
 	price: '$300',
 	description: 'Huge LCD screen, a great deal',
