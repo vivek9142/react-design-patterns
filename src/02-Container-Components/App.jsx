@@ -1,6 +1,7 @@
 // import SIApp from "./01-Server Instructions/SIApp";
 // import ULApp from "./02-UserLoader/ULApp";
-import RLApp from "./03-ResourceLoader/RLApp";
+// import RLApp from "./03-ResourceLoader/RLApp";
+import DSApp from "./04-DataSourceComponent/DSApp";
 
 const App = () => {
     return(
@@ -11,7 +12,8 @@ const App = () => {
 
         {/* <SIApp/> */}
         {/* <ULApp/> */}
-        <RLApp/>
+        {/* <RLApp/> */}
+        <DSApp/>
         </div>
     )
 }
