@@ -6,7 +6,9 @@ So this would be in the case of, let's say, a form when the user hits the Submit
 
 Controlled components, on the other hand, are basically components where their parent is the one that takes care of keeping track of the state and that state is then usually passed through to a controlled component as a prop of some sort.
 
-Let's take a look at what this might look like in code. For uncontrolled components, more often than not, the component itself again is going to be the one that keeps track of its own state. So what this is going to look like up here at the top, we see that this component has its own useState hook and the only prop that it's getting past is this onSubmit prop, which the parent component would pass a function to to actually get the values of that component's state when the submit event is triggered. 
+Let's take a look at what this might look like in code. 
+
+For uncontrolled components, more often than not, the component itself again is going to be the one that keeps track of its own state. So what this is going to look like up here at the top, we see that this component has its own useState hook and the only prop that it's getting past is this onSubmit prop, which the parent component would pass a function to to actually get the values of that component's state when the submit event is triggered. 
 
 ```jsx
 const MyComponent = ({ onSubmit }) =>{
