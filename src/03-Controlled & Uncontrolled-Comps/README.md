@@ -33,6 +33,8 @@ const MyComponent = ({ data, changeData, onSubmit }) =>{
     onSubmit={data => ... } />
 ```
 
-So one question that comes up when we talk about uncontrolled and controlled components is which one do we generally prefer? Well, more often than not, we're going to prefer controlled components and there are several reasons for this. The main reason is that it just makes our components more reusable and it also makes them a lot easier to test since we can just set up a component with the exact state we want, instead of having to create the component manually, make some changes, and then trigger some event to find out what's going on inside of it. 
+***So one question that comes up when we talk about uncontrolled and controlled components is which one do we generally prefer?***
+
+Well, more often than not, we're going to prefer controlled components and there are several reasons for this. The main reason is that it just makes our components more reusable and it also makes them a lot easier to test since we can just set up a component with the exact state we want, instead of having to create the component manually, make some changes, and then trigger some event to find out what's going on inside of it. 
 
 So in other words, controlled components are just easier to test, they're more reusable, we more often than not will prefer them.
