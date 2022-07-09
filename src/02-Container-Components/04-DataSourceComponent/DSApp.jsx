@@ -1,3 +1,9 @@
+/*
+2-a - let me show you how data source can go another step further. One thing that we might 
+want to do is get some sort of message or something that's stored in our local storage 
+instead of loading that data from a server. 
+*/
+
 
 import {DataSource} from './DataSource';
 import {UserInfo} from './UserInfo';
@@ -19,6 +25,18 @@ function DSApp() {
     create a function for it somewhere,
     */
 
+    /*
+    2-b - a function that would take the key where something is stored in local storage in 
+    the user's browser. Return a function, and this doesn't need to be asynchronous since 
+    local storage isn't asynchronous. And we would just say return local storage dot, get 
+    item key. 
+    */
+    const getLocalStoraqeData = key => () => {
+        return localStorage.getItem(key)
+    }
+
+    const Text = ({message}) => (<h1>{message}</h1>)
+ 
     const getServerData = url => async () => {
         const response = await axios.get(url);
         return response.data;
@@ -38,6 +56,19 @@ function DSApp() {
         {/* 07 - getServerData func to pass the url and sent it to getDatafunc */}
         <DataSource getDataFunc={getServerData('/users/123')} resourceName='user'>
             <UserInfo/>   
+        </DataSource>
+
+        {/* 2-c -. We're going to say data source, and what we're going to do now for the 
+        get data function, we're going to pass in, get local storage data. The key for that 
+        is going to be message. And the resource name here is going to be message as well. 
+        And then inside there, we'll have our text component that we just created. And this 
+        text component is automatically going to receive the contents of that piece of local 
+        storage in its prop called message. So what we're going to see if we go back here, 
+        we're going to see hello from local storage, which is our text component, getting 
+        its data from local storage via our data source component. */}
+
+        <DataSource getDataFunc={getLocalStoraqeData('message')} resourceName='message'>
+            <Text/>
         </DataSource>
         
         </>
