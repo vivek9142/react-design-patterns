@@ -15,7 +15,7 @@ export const CurrentUserLoader = ({children}) =>{
         version here for writing an anonymous async function. */
         
         (async ()=>{
-            const response = await axios.get('http://localhost:8080/current-user');
+            const response = await axios.get('/current-user');
             const currentUser = response.data;
             setUser(currentUser);
         })();

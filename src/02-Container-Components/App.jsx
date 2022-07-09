@@ -1,4 +1,5 @@
-import SIApp from "./01-Server Instructions/SIApp";
+// import SIApp from "./01-Server Instructions/SIApp";
+import ULApp from "./02-UserLoader/ULApp";
 
 const App = () => {
     return(
@@ -7,7 +8,8 @@ const App = () => {
             01 - Container Components
         </h1>
 
-        <SIApp/>
+        {/* <SIApp/> */}
+        <ULApp/>
         </div>
     )
 }
