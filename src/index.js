@@ -6,7 +6,10 @@ import './index.css';
 // import App from './01-Layout-Components/App';
 
 //02- Container Components
-import App from './02-Container-Components/App';
+// import App from './02-Container-Components/App';
+
+//03 - Controlled & Uncontrolled Components
+import App from './03-Controlled & Uncontrolled-Comps/App';
 
 import reportWebVitals from './reportWebVitals';
 
