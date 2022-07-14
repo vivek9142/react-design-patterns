@@ -1,4 +1,4 @@
-import { UncontrolledOnboardingFlow } from "./UncontrolledOnboardingFlow";
+import { UncontrolledOnboardingFlow } from "./UncontrolledOnboardingFlow1";
 
 /*
 04 -  So basically what this is going to look like is inside our uncontrolled onboarding 
@@ -21,7 +21,7 @@ const Step1 = ({goToNext}) => (<><h1>Step 1</h1><button onClick={goToNext}>Next<
 const Step2 = ({goToNext}) => (<><h1>Step 2</h1><button onClick={goToNext}>Next</button></>);
 const Step3 = ({goToNext}) => (<><h1>Step 3</h1><button onClick={goToNext}>Next</button></>);
 
-const BoardingApp = () => {
+const BoardingApp1 = () => {
 
     return (
         <UncontrolledOnboardingFlow>
@@ -38,4 +38,4 @@ const BoardingApp = () => {
     )
 }
 
-export default BoardingApp;
+export default BoardingApp1;

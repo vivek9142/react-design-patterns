@@ -1,7 +1,8 @@
 // import {UncontrolledForm} from "./01-UncontrolledForm/UncontrolledForm";
 // import { ControlledForm } from "./02-ControlledForm/ControlledForm";
 // import ModalApp from "./03-ControlledModals/ModalApp";
-import BoardingApp from "./04-UncontrolledOnboardingFlow/BoardingApp";
+// import BoardingApp1 from "./04-UncontrolledOnboardingFlow/BoardingApp1";
+import BoardingApp2 from './05-CollectingOnboardingData/BoardingApp2';
 
 const App = () => {
     return(
@@ -13,7 +14,8 @@ const App = () => {
         {/* <UncontrolledForm/> */}
         {/* <ControlledForm/> */}
         {/* <ModalApp/> */}
-        <BoardingApp/>
+        {/* <BoardingApp1/> */}
+        <BoardingApp2/>
         </div>
     )
 }
