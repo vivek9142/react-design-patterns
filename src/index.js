@@ -9,7 +9,10 @@ import './index.css';
 // import App from './02-Container-Components/App';
 
 //03 - Controlled & Uncontrolled Components
-import App from './03-Controlled & Uncontrolled-Comps/App';
+//import App from './03-Controlled & Uncontrolled-Comps/App';
+
+//04 - HOC
+import App from './04-Higher Order Components/App';
 
 import reportWebVitals from './reportWebVitals';
 
