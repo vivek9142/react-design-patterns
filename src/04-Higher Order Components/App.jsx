@@ -1,5 +1,6 @@
 //import PrintApp from "./01-PrintingProps/PrintApp";
-import { LoadApp } from "./02-Loading data/LoadApp";
+// import { LoadApp } from "./02-Loading data/LoadApp";
+import { LoadApp } from "./03-Modifying data/LoadApp";
 
 const App = () => {
     return(
