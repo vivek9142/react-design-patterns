@@ -2,7 +2,9 @@
 // import { ControlledForm } from "./02-ControlledForm/ControlledForm";
 // import ModalApp from "./03-ControlledModals/ModalApp";
 // import BoardingApp1 from "./04-UncontrolledOnboardingFlow/BoardingApp1";
-import BoardingApp2 from './05-CollectingOnboardingData/BoardingApp2';
+// import BoardingApp2 from './05-CollectingOnboardingData/BoardingApp2';
+import ControlledApp from './06-ControlledOnboardingFlow/ControlledApp';
+
 
 const App = () => {
     return(
@@ -15,7 +17,8 @@ const App = () => {
         {/* <ControlledForm/> */}
         {/* <ModalApp/> */}
         {/* <BoardingApp1/> */}
-        <BoardingApp2/>
+        {/* <BoardingApp2/> */}
+        <ControlledApp/>
         </div>
     )
 }
