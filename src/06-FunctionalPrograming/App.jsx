@@ -1,5 +1,6 @@
 // import RecApp from './01-RecursiveComponents/RecApp';
-import CompApp from './02-Component Composition/CompApp';
+// import CompApp from './02-Component Composition/CompApp';
+import PACApp from "./03-PartiallyAppliedComp/PACApp";
 
 const App = () => {
     return(
@@ -9,7 +10,8 @@ const App = () => {
         </h1>
 
         {/* <RecApp/> */}
-        <CompApp/>
+        {/* <CompApp/> */}
+        <PACApp/>
         </div>
     )
 }
