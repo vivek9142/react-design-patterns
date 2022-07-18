@@ -1,7 +1,5 @@
-//import PrintApp from "./01-PrintingProps/PrintApp";
-// import { LoadApp } from "./02-Loading data/LoadApp";
-// import { LoadApp } from "./03-Modifying data/LoadApp";
-import HookApp from "./01-useCurrentUser/HookApp";
+// import HookApp from "./01-useCurrentUser/HookApp";
+import UserApp from "./02-useUser/UserApp";
 
 const App = () => {
     return(
@@ -10,8 +8,8 @@ const App = () => {
             04 - Custom Hook Pattern
         </h1>
 
-        <HookApp/>
-        {/* <ModalApp/> */}
+        {/* <HookApp/> */}
+        <UserApp/>
         {/* <BoardingApp1/> */}
         {/* <BoardingApp2/> */}
         </div>
