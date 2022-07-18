@@ -1,5 +1,6 @@
 // import HookApp from "./01-useCurrentUser/HookApp";
-import UserApp from "./02-useUser/UserApp";
+// import UserApp from "./02-useUser/UserApp";
+import ResApp from './03-useResourceHook/ResApp';
 
 const App = () => {
     return(
@@ -9,8 +10,8 @@ const App = () => {
         </h1>
 
         {/* <HookApp/> */}
-        <UserApp/>
-        {/* <BoardingApp1/> */}
+        {/* <UserApp/> */}
+        <ResApp/>
         {/* <BoardingApp2/> */}
         </div>
     )
