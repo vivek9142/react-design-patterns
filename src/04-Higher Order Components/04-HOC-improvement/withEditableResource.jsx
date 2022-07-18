@@ -1,7 +1,7 @@
 import React,{useState , useEffect} from 'react';
 import axios from 'axios';
 
-const capitalize = str => str.charAt(0).toUpperCase() + str.splice(1);
+const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
 
 
 /*
@@ -46,6 +46,7 @@ export const withEditableResource = (Component, resourcePath, resourceName) => {
         situations where we want to use the same higher order component several times over 
         again. 
         */
+
         const resourceProps = {
             [resourceName]:data,
             [`onChange${capitalize(resourceName)}`]:onChange,
@@ -53,7 +54,7 @@ export const withEditableResource = (Component, resourcePath, resourceName) => {
             [`onReset${capitalize(resourceName)}`]:onReset,
         }
 
-        return <Component {...props} {...resourceProps} />;
+            return <Component {...props} {...resourceProps} />;
 
     }
 }
