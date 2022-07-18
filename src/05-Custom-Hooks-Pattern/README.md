@@ -10,4 +10,4 @@ One thing to note is that custom hooks do have to start with the word use, okay?
 const products = useProducts();
 ```
 
-They are basically used for sharing complex behaviour between multiple components(much like HOCs and container components)
+***They are basically used for sharing complex behaviour between multiple components(much like HOCs and container components)***

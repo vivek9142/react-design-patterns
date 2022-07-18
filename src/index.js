@@ -12,7 +12,10 @@ import './index.css';
 //import App from './03-Controlled & Uncontrolled-Comps/App';
 
 //04 - HOC
-import App from './04-Higher Order Components/App';
+// import App from './04-Higher Order Components/App';
+
+//05 - Custom Hook Pattern
+import App from './05-Custom-Hooks-Pattern/App';
 
 import reportWebVitals from './reportWebVitals';
 
