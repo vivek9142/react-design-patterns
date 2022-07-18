@@ -15,7 +15,10 @@ import './index.css';
 // import App from './04-Higher Order Components/App';
 
 //05 - Custom Hook Pattern
-import App from './05-Custom-Hooks-Pattern/App';
+// import App from './05-Custom-Hooks-Pattern/App';
+
+//06-Functional Programming
+import App from './06-FunctionalPrograming/App';
 
 import reportWebVitals from './reportWebVitals';
 
