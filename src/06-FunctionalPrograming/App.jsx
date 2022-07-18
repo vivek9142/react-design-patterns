@@ -1,4 +1,5 @@
-import RecApp from './01-RecursiveComponents/RecApp';
+// import RecApp from './01-RecursiveComponents/RecApp';
+import CompApp from './02-Component Composition/CompApp';
 
 const App = () => {
     return(
@@ -7,7 +8,8 @@ const App = () => {
             06 - Functional Programming
         </h1>
 
-        <RecApp/>
+        {/* <RecApp/> */}
+        <CompApp/>
         </div>
     )
 }
